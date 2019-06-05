@@ -31,7 +31,9 @@ public class Elementos1903Application implements CommandLineRunner{
     
     //Borrar por Id
     //repoCliente.deleteById(1);
-    
+    //for(Cliente c:  repoCliente.findByEmail("verobetty1@hotmail.com")){
+   //System.out.println(c);
+     //  }
     }
 
 }

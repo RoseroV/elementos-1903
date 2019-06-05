@@ -5,6 +5,7 @@
  */
 package org.unitec.elementos1903;
 
+import java.util.List;
 import org.springframework.data.mongodb.repository.MongoRepository;
 
 /**
@@ -14,4 +15,5 @@ import org.springframework.data.mongodb.repository.MongoRepository;
 
 public interface RepoCliente extends MongoRepository<Cliente,Integer>{
     
+    List<Cliente> findByEmail(String email);
 }
