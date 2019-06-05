@@ -17,6 +17,11 @@ public class Cliente {
   private String nombre;
   private String email;
 
+    @Override
+    public String toString() {
+        return "Cliente{" + "id=" + id + ", nombre=" + nombre + ", email=" + email + '}';
+    }
+
     public Cliente(Integer id, String nombre, String email) {
         this.id = id;
         this.nombre = nombre;
