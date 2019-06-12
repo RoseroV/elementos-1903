@@ -18,11 +18,11 @@ public class Elementos1903Application implements CommandLineRunner{
     @Override
     public void run(String... args) throws Exception {
         
-     //repoCliente.save(new Cliente(1,"Beatriz","verobetty1@hotmail.com"));
-     //repoCliente.save(new Cliente(2,"Fernanda","mariferjim@hotmail.com"));
-     
+     /*repoCliente.save(new Cliente(1,"Beatriz","verobetty1@hotmail.com"));
+     repoCliente.save(new Cliente(2,"Fernanda","mariferjim@hotmail.com"));
+     */
      //Buscar todos
-    /* for(Cliente c: repoCliente.findAll()){
+    /*for(Cliente c: repoCliente.findAll()){
         System.out.println(c);
      }*/
      
@@ -31,9 +31,10 @@ public class Elementos1903Application implements CommandLineRunner{
     
     //Borrar por Id
     //repoCliente.deleteById(1);
-    //for(Cliente c:  repoCliente.findByEmail("verobetty1@hotmail.com")){
-   //System.out.println(c);
-     //  }
+    
+    /*for(Cliente c:  repoCliente.findByEmail("verobetty1@hotmail.com")){
+   System.out.println(c);
+      }*/
     }
 
 }
