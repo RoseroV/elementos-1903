@@ -16,7 +16,7 @@ public class ControladorHola {
     @GetMapping("/hola")
     public String hola(){
         
-        return "Mi primer Servico REST con spring!!! :D ";
+        return "Mi Servidor Web y soy MariFer :D";
     }
     
 }
